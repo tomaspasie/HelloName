@@ -6,7 +6,12 @@ namespace HelloName
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello John");
+            // Print Name
+            string fname = "Tomas";
+            string lname = "Pasiecznik";
+            Console.WriteLine("Hello {0} {1}", fname, lname);
+
+
         }
     }
 }
